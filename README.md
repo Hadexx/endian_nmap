@@ -9,7 +9,7 @@ v.1
 
 Installation:
 --------
-    
+    curl -Lo nmap.zip 
     unzip nmap.zip
     cp -R ** /
     chmod 755 /usr/bin/nmap
