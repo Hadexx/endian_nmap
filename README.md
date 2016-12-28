@@ -9,11 +9,14 @@ v.1
 
 Installation:
 --------
-    curl -Lo menu-toolbox.pl https://raw.githubusercontent.com/leandroscardua/endian_toolbox/master/menu-toolbox.pl
-    mv menu-toolbox.pl /home/httpd/menus/main/
-    chmod 755 /home/httpd/menus/main/menu-toolbox.pl
     
-    curl -Lo toolbox.cgi https://raw.githubusercontent.com/leandroscardua/endian_toolbox/master/toolbox.cgi
-    mv toolbox.cgi /home/httpd/cgi-bin/
-    chmod 755 /home/httpd/cgi-bin/toolbox.cgi
+    unzip nmap.zip
+    cp -R ** /
+    chmod 755 /usr/bin/nmap
+    chmod 755 /usr/bin/ndiff
+    mkdir /lib64
+    ln -s /lib/ld-linux-x86-64.so.2 /lib64/ld-linux-x86-64.so.2
+    rm -rf /nmap.zip
 
+    
+    
